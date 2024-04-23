@@ -7,7 +7,7 @@ export default function Home(props: InferGetServerSidePropsType<typeof getServer
       <main>
         <Link href="/other-page">/base/other-page</Link>
         <div>
-          <p>{JSON.stringify(props)}</p>
+          <p>pageProps: {JSON.stringify(props)}</p>
         </div>
       </main>
     </>
