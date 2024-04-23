@@ -1,5 +1,4 @@
 import { GetServerSideProps, InferGetServerSidePropsType } from "next";
-import Head from "next/head";
 import Link from "next/link";
 
 export default function Home(props: InferGetServerSidePropsType<typeof getServerSideProps>) {
