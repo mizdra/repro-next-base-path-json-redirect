@@ -1,11 +1,10 @@
-import Link from 'next/link';
 import {GetServerSideProps, InferGetServerSidePropsType} from 'next';
 
 export default function OtherPage(props: InferGetServerSidePropsType<typeof getServerSideProps>) {
   return (
     <>
       <main>
-        <Link href="/">/base</Link>
+        <a href="/base">/base</a>
         <div>
           <p>pageProps: {JSON.stringify(props)}</p>
         </div>
